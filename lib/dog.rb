@@ -15,6 +15,6 @@ def self.clear_all
 end
 
 def self.all
-  @@all
+  @@all.each {|x| x.name}
 end
 end
