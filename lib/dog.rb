@@ -8,7 +8,6 @@ attr_accessor :name
 def initialize(name)
   @name = name
   @@all << self.name
-  binding.pry
 end
 
 def self.clear_all
